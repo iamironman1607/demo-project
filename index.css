@@ -1,0 +1,46 @@
+#image1
+{
+    border-radius: 20px;   
+    opacity: 0.8;
+    border: 2px solid black;
+    margin-bottom: 50px;
+}
+
+form{
+    display: block;
+}
+
+tr
+{
+    padding: 15px;
+}
+
+td{
+    border: 1px solid blue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+li {
+    float: left;
+    margin-right: 10px;
+  }
+  
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+@media screen and (max-width: 540px)
+{
+    #image1
+    {
+        width: 100%;
+    }
+}
